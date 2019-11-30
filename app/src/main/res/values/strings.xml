@@ -3,7 +3,7 @@
     <!--<string name="app_name">LeafPic</string>-->
     <string name="app_light_description">A colorful material gallery.</string>
     <string name="team_name">HoraApps</string>
-    <string name="welcome_slide_title">Welcome To LeafPic!</string>
+    <string name="welcome_slide_title">Welcome To CryptoPic!</string>
     <string name="welcome_slide_sub">A Colorful Material Designed Gallery!</string>
     <string name="made_with_love_by">Made with love by</string>
     <string name="Effects">Effects</string>
@@ -240,7 +240,7 @@
     <string name="donate_payppal">PayPal</string>
     <string name="donate_bitcoin">Bitcoin</string>
     <string name="donate_header_text">
-        Hi,\nWe are a small independent team that works with love on LeafPic ❤.
+        Hi,\nWe are a small independent team that works with love on CryptoPic ❤.
         This is our first app, so we have a lot to learn by your feedback.
         If you enjoy our work you can show us your appreciation by donating.
         \nWith your help we can make this project even better or start new cool ones.
@@ -258,10 +258,10 @@
     <string name="about_version">Version</string>
 
     <string name="about_license">License</string>
-    <string name="about_license_sub">Check GPLv3 license terms used on LeafPic.</string>
+    <string name="about_license_sub">Check GPLv3 license terms used on CryptoPic.</string>
 
     <string name="about_library_license">Library Licenses</string>
-    <string name="about_library_license_sub">Check third-party libs used on LeafPic.</string>
+    <string name="about_library_license_sub">Check third-party libs used on CryptoPic.</string>
 
     <string name="about_authors">Authors</string>
     <string name="about_author_donald_description">
@@ -297,13 +297,13 @@
 
     <string name="about_support">Support Development</string>
     <string name="about_support_translate">Translate</string>
-    <string name="about_support_translate_sub">Help us translate LeafPic in more languages.</string>
+    <string name="about_support_translate_sub">Help us translate CryptoPic in more languages.</string>
 
     <string name="about_support_report_bug">Report bug</string>
     <string name="about_support_report_bug_sub">Report bug or request new features.</string>
 
     <string name="about_support_rate">Rate</string>
-    <string name="about_support_rate_sub">Leave us a positive rating if you like LeafPic.</string>
+    <string name="about_support_rate_sub">Leave us a positive rating if you like CryptoPic.</string>
 
     <string name="about_support_github">GitHub</string>
     <string name="about_support_github_sub">Fork the repo and push changes or submit new issues.</string>

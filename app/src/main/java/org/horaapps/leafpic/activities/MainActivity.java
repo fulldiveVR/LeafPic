@@ -1,5 +1,6 @@
 package org.horaapps.leafpic.activities;
 
+import android.annotation.SuppressLint;
 import android.content.Intent;
 import android.content.res.ColorStateList;
 import android.content.res.Configuration;
@@ -27,6 +28,7 @@ import android.view.View;
 import android.widget.TextView;
 import android.widget.Toast;
 
+import com.fulldive.eventsender.lib.EventSender;
 import com.mikepenz.google_material_typeface_library.GoogleMaterial;
 import com.mikepenz.iconics.IconicsDrawable;
 import com.mikepenz.iconics.typeface.IIcon;
@@ -260,6 +262,7 @@ public class MainActivity extends SharedMediaActivity implements
         toolbar.setTitle(getString(R.string.toolbar_selection_count, count, total));
     }
 
+    @SuppressLint("RestrictedApi")
     @Override
     public void onConfigurationChanged(Configuration newConfig) {
         super.onConfigurationChanged(newConfig);
@@ -354,6 +357,7 @@ public class MainActivity extends SharedMediaActivity implements
         }).start();
     }
 
+    @SuppressLint("RestrictedApi")
     @CallSuper
     @Override
     public void updateUiElements() {
@@ -421,6 +425,13 @@ public class MainActivity extends SharedMediaActivity implements
     protected void onStart() {
         super.onStart();
         navigationDrawerView.refresh();
+        EventSender.getInstance(getApplicationContext()).onStart(this);
+    }
+
+    @Override
+    protected void onStop() {
+        super.onStop();
+        EventSender.getInstance(getApplicationContext()).onStop(this);
     }
 
     /**region MENU */

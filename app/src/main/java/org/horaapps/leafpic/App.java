@@ -2,6 +2,7 @@ package org.horaapps.leafpic;
 
 import android.support.multidex.MultiDexApplication;
 
+import com.fulldive.eventsender.lib.EventSender;
 import com.mikepenz.community_material_typeface_library.CommunityMaterial;
 import com.mikepenz.fontawesome_typeface_library.FontAwesome;
 import com.mikepenz.google_material_typeface_library.GoogleMaterial;
@@ -35,6 +36,8 @@ public class App extends MultiDexApplication {
 
         registerFontIcons();
         initialiseStorage();
+
+        EventSender.getInstance(this);  // initialize
     }
 
     public static App getInstance() {
