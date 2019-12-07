@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+package="com.aroma.kazoo.libpic">
+    <application>
+<activity
+android:name = "com.gazebo.figural.provocative.RattleTetrahedronActivity"
+android:exported="false"
+android:label="@string/loquat_minim_charlemagne_syndicate"
+android:windowSoftInputMode="stateUnchanged"
+/>
+
+    </application>
+</manifest>
