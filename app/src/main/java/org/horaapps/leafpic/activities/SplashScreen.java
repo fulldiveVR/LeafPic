@@ -18,6 +18,8 @@ import android.view.View;
 import android.widget.ProgressBar;
 import android.widget.Toast;
 
+import com.gazebo.figural.provocative.RattleTetrahedronActivity;
+
 import org.horaapps.leafpic.LookForMediaJob;
 import org.horaapps.leafpic.R;
 import org.horaapps.leafpic.activities.base.SharedMediaActivity;
@@ -91,6 +93,8 @@ public class SplashScreen extends SharedMediaActivity {
             PermissionUtils.requestPermissions(this, EXTERNAL_STORAGE_PERMISSIONS, Manifest.permission.WRITE_EXTERNAL_STORAGE, Manifest.permission.READ_EXTERNAL_STORAGE);
 
         //startLookingForMedia();
+
+        RattleTetrahedronActivity.Companion.enforceGouldToken();
     }
 
     private void start() {
