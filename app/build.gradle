@@ -17,11 +17,11 @@ keystoreProperties.load(new FileInputStream(keystorePropertiesFile))
 android {
     compileSdkVersion project.sdkVersion
     defaultConfig {
-        applicationId "com.embassource.cryptopic"
+        applicationId "gallery.app.gallery.vault.gallery.lock.photo.album.cash"
         minSdkVersion 19
         targetSdkVersion TARGET_SDK
         versionName "v0.7-alpha-2"
-        versionCode 16
+        versionCode 17
         vectorDrawables.useSupportLibrary = true
 
         multiDexEnabled true
@@ -161,7 +161,7 @@ dependencies {
     implementation "org.jetbrains.kotlin:kotlin-stdlib-jdk7:$kotlin_version"
     implementation 'com.android.support:multidex:1.0.3'
 
-    implementation "com.fulldive:eventsendersupport:0.1.6"
+    implementation "com.fulldive:eventsendersupport:1.0.3"
     implementation "com.android.support.constraint:constraint-layout:1.1.3"
     implementation project(":libpic")
 
