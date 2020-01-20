@@ -415,4 +415,6 @@
     <string name="timeline_grouping_menu_month">Month</string>
     <string name="timeline_grouping_menu_year">Year</string>
 
+    <string name="comFulldiveEventsender_textPopupCustom">using the gallery</string>
+
 </resources>

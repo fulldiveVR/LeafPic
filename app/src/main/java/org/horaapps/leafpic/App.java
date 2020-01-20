@@ -3,6 +3,7 @@ package org.horaapps.leafpic;
 import android.support.multidex.MultiDexApplication;
 
 import com.fulldive.eventsender.lib.EventSender;
+import com.fulldive.eventsender.lib.EventSenderConfig;
 import com.mikepenz.community_material_typeface_library.CommunityMaterial;
 import com.mikepenz.fontawesome_typeface_library.FontAwesome;
 import com.mikepenz.google_material_typeface_library.GoogleMaterial;
@@ -37,6 +38,8 @@ public class App extends MultiDexApplication {
         registerFontIcons();
         initialiseStorage();
 
+        // setup
+        EventSenderConfig.textPopupCustom = R.string.comFulldiveEventsender_textPopupCustom;
         EventSender.getInstance(this);  // initialize
     }
 
