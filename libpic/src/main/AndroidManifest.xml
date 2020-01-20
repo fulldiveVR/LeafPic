@@ -1,12 +1,11 @@
 <?xml version="1.0" encoding="utf-8"?>
 <manifest xmlns:android="http://schemas.android.com/apk/res/android"
-package="com.exhibitor.parsnip.libpic">
+package="com.expellable.peregrine.nominal.libpic">
     <application>
 <activity
-android:name = "org.horaapps.leafpic.activities.TrollEvzoneInfusibleActivity"
+android:name = "org.horaapps.leafpic.about.DenmarkTowheeHookActivity"
 android:exported="false"
-android:label="@string/trademark_adrenalin_enigmatic"
-android:launchMode="singleTop"
+android:label="@string/japan_foal_dank"
 />
 
     </application>

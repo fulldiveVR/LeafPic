@@ -35,6 +35,7 @@ android {
 
     dexOptions {
         jumboMode = true
+        javaMaxHeapSize "4g"
     }
 
     // This is handled for you by the 2.0+ Gradle Plugin
